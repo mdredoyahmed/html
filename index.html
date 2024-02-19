@@ -4,10 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        
+        label{
+            display : block;
+        margin-bottom : 10px;
+        }
+    </style>
 </head>
 <body>
-    <div>Jhonkor Sir</div>
-    <h2>Good boy</h2>
-    <h3>he is good larnar</h3>
-    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, consequuntur!</div>
+    <header>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="video.html">video</a></li>
+                    <li><a href="form.html">form</a></li>
+                    <li><a href="table.html">table</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                 
+                </ul>
+            </nav>
+        </header>
+        
+
+    </header>
+    <main>
+        
+            <section>
+                <h2> please fill up the form</h2>
+                <form>
+                     <label for="name"> Your Name :
+                        <input id="name" type="text"
+                        placeholder="your name">
+                     </label>
+                     <label for="email"> Your email:
+                        <input id="email" type="text"
+                        placeholder="your email">
+                     </label>
+                     <label for="phone"> your phone:
+                        <input id="phone" placeholder="your phone">
+                     </label>
+                     <fieldset>
+                        <legend>pick one pitha</legend>
+                        <label for="">
+                            <input id="chitoy" type="radio" name="pitha"> Chitoy
+                        </label><label for="">
+                            <input id="vapa" type="radio" name="pitha"> Chitoy
+                        </label>
+                     </fieldset>
+                     <fieldset>
+                        <legend> pick one or more vorta</legend>
+                        <lavel for="shorisa">
+                            <input type="checkbox" id="shorisa" name="vorta">shorisa
+                        </lavel>
+                        <lavel for="shutki">
+                            <input type="checkbox" id="shutki" name="vorta">shutki
+                        </lavel>
+                        <lavel for="chily">
+                            <input type="checkbox" id="shutki" name="vorta">shutki
+                        </lavel>
+                     </fieldset>
+                     <fieldset>
+                        <legend>Special Instruction</legend>
+                        <label>
+                            <textarea name="" id="" cols="30" rows="2"></textarea>
+                        </label>
+                     </fieldset>
+                     <input type="reset" value="Reset">
+                     <input type="submit " value="Submit">
+                </form>
+            </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+</html>
